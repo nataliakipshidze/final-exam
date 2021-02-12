@@ -1,0 +1,70 @@
+
+body {
+		font-size: 15px;
+}
+
+.body {
+	background-color: #ffdec2
+}
+
+
+header {
+	margin-top: 30px;
+	margin-right: 55px;
+}
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.left {
+  left: 0;
+  background-color: #111;
+  color: #fff;
+}
+
+
+#firstdiv {
+	padding-bottom: 250px;
+}
+
+
+#seconddiv {
+	padding-top: 300px;
+}
+
+
+.right {
+  right: 0;
+  background-color: red;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+#tivtiva {
+	width: 160px;
+}
+
+
+#icons {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	width: 35px;
+	height: 40px;
+}

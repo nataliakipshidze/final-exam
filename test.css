@@ -1,0 +1,95 @@
+body {
+	position: absolute; 
+	width-height: 100%; 
+	top-right-left-bottom: 0px;
+	background-image: url("img/background.jpg");
+	background-repeat: no-repeat;
+	/*	background-position: center;*/
+	background-size: cover;
+}
+
+.bottles {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.bottles img {
+	width: 100px;
+	height: 150px;
+	position: relative;
+	animation-name: move;
+	animation-duration: 8s;
+	animation-iteration-count: infinite; 
+}
+
+@keyframes move {
+	0%   {left:0px; top:0px;}
+	25%  {left:0px; top:20px;}
+	50%  {left:0px; top:0px;}
+	75%  {left:0px; top:20px;}
+	100% {left:0px; top:0px;}
+}
+
+
+#bottle1 {
+	margin-top: 45%;
+	margin-left: 60%
+}
+
+
+
+
+#bottle2 {
+	margin-top: -15%;
+	margin-left: 90%;
+
+}
+
+
+
+#bottle3 {
+	margin-top: -40%;
+	margin-left: 125%;
+
+}
+
+
+
+
+#bottle4 {
+	margin-top: -28%;
+	margin-left: 155%;
+
+}
+
+
+
+
+#bottle5 {
+	margin-top: -35%;
+	margin-left: 185%;
+
+}
+
+
+
+#bottle6 {
+	margin-top: -22%;
+	margin-left: 210%;
+}
+
+.tivtiva {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+#tivtivaicon {
+	width: 200px;
+	height: 200px;
+	margin-top: -50%;
+	margin-left: 3%;
+}
+
+
